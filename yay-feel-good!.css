@@ -4,7 +4,7 @@
 }
 #inner {
     transform: rotate(0deg);
-    background-image: url("images/sun.png");
+    background-image: url("./images/sun.png");
     background-size: 150%;
     background-position: center;
     border-radius: 50%;
@@ -24,7 +24,7 @@
     }
     #wrap
     {
-        background-image: url("images/Untitled\ design.png");
+        background-image: url("./images/Untitled\ design.png");
         background-size: cover;
         background-position: center;
     }
@@ -76,7 +76,7 @@ a {
 #wrap::before {
     content: "";
     position:absolute;
-    background-image: url("images/Untitled\ design.png");
+    background-image: url("./images/Untitled\ design.png");
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -174,7 +174,7 @@ body:has(input[type="checkbox"]:checked) h4 {
     background-repeat: no-repeat;
     pointer-events: none;
     overflow:hidden;
-    cursor: url("images/cursor.png") 50 50, auto;
+    cursor: url("./images/cursor.png") 50 50, auto;
 }
 @media (max-width: 768px) {
     #show-label {
@@ -185,7 +185,7 @@ body:has(input[type="checkbox"]:checked) h4 {
     }
 }
 body:has(.cardcheckbox:checked) #show-label:hover{
-    background-image: url("images/buttonimg.jpg");
+    background-image: url("./images/buttonimg.jpg");
     background-position: center;
 }
 #showline
@@ -256,7 +256,7 @@ body:has(.cardcheckbox:checked) #show-label
     background-image: none !important;
     background-color: transparent !important;
     border: none !important; 
-    cursor: url("images/cursor.png") 50 50, auto;
+    cursor: url("./images/cursor.png") 50 50, auto;
 }
 input[type="checkbox"]:checked + .thecard {
     transform: translateY(220px);
@@ -279,7 +279,7 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     bottom:0;
     position:absolute;
     z-index: 99;
-    background-image: url("images/door-image.jpg");
+    background-image: url("./images/door-image.jpg");
     background-size: 200%;
     width: 50vw;
     height: 100vh;
@@ -288,12 +288,12 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 }
 @media (max-width: 450px) {
     #leftimage, #rightimage {
-        background-image: url("images/door-image-phone.png");
+        background-image: url("./images/door-image-phone.png");
     }
 }
 @media (min-width: 451px) and (max-width: 768px) {
     #leftimage, #rightimage {
-        background-image: url("images/door-image-mobile.png");
+        background-image: url("./images/door-image-mobile.png");
     }
 }
 #leftimage
@@ -371,7 +371,7 @@ body.doors-closed #rightimage {
 }
 #shuffleButton:hover
 {
-    background-image: url("images/shuffleimage.jpg");
+    background-image: url("./images/shuffleimage.jpg");
     background-size: cover;
     background-position: center;
     background-color: #fff;
@@ -424,7 +424,7 @@ body:has(#show:checked) #thirdpgbutton
 }
 body:has(#show:checked) #thirdpgbutton:hover
 {
-    background-image: url("images/button-image2.jpg");
+    background-image: url("./images/button-image2.jpg");
     background-size: cover;
     background-position: 50% 75%;
     background-color: #fff;

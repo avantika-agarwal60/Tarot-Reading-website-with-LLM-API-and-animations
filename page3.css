@@ -55,7 +55,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-image: url("images/page3bg.png");
+    background-image: url("./images/page3bg.png");
     background-position: center;
     background-repeat: no-repeat;
     pointer-events: auto;
@@ -71,7 +71,7 @@ body{
     left: 50%;
     top: 50%;
     
-    background-image: url("images/crystalBall.png");
+    background-image: url("./images/crystalBall.png");
     background-size: cover;
     background-position: center;
     transform-style: preserve-3d;
@@ -108,7 +108,7 @@ body{
     height: 5.8vh;
     left: calc(50vw - 23vw);
     top: 4%;
-    background-image: url("images/labeel.png");
+    background-image: url("./images/labeel.png");
     background-position: 50% 47%;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -255,7 +255,7 @@ body{
 
 #fourthpagebutton:hover
 {
-    background-image: url("images/fourthpagebuttonhover.jpg");
+    background-image: url("./images/fourthpagebuttonhover.jpg");
     background-size: cover;
     background-position: center;
 }
