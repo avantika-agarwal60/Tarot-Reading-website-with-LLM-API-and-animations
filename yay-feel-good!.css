@@ -139,7 +139,7 @@ h4 {
         left: 50%;
         transform: translateX(-50%);
         padding: 10px;
-        top: 30vh;
+        top: 35vh;
     }
 }
 input[type="checkbox"] {
@@ -300,14 +300,14 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 #leftimage
 {
     left: 0;
-    bottom: 0;
+    bottom: -10%;
     background-position: left;
     transform: translateX(-102%);
     position:fixed;
 }
 #rightimage
 {
-    bottom: 0;
+    bottom: -10%;
     right: 0;
     background-position: right;
     transform: translateX(102%) !important;
