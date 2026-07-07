@@ -55,7 +55,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-image: url("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/page3bg.png");
+    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448746/page3bg_txfuxj.png");
     background-position: center;
     background-repeat: no-repeat;
     pointer-events: auto;
@@ -71,7 +71,7 @@ body{
     left: 50%;
     top: 50%;
     
-    background-image: url("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/crystalBall.png");
+    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448742/crystalBall_qphxrm.png");
     background-size: cover;
     background-position: center;
     transform-style: preserve-3d;
@@ -108,7 +108,7 @@ body{
     height: 5.8vh;
     left: calc(50vw - 23vw);
     top: 4%;
-    background-image: url("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/labeel.png");
+    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448743/labeel_r5ko9k.png");
     background-position: 50% 47%;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -255,7 +255,7 @@ body{
 
 #fourthpagebutton:hover
 {
-    background-image: url("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/fourthpagebuttonhover.jpg");
+    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448743/fourthpagebuttonhover_oi4uvj.jpg");
     background-size: cover;
     background-position: center;
 }
