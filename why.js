@@ -51,16 +51,16 @@ let isShuffling = false;
 let savedChoices = [];
 
 // --- 4. AUDIO SYSTEM CONFIGURATION ---
-const door2 = new Audio("sounds/door2.mp3");
-const flippingSound = new Audio("sounds/flipping-sound.mp3");
-const shufflesound = new Audio("sounds/shufflesound4.mp3");
-const carddeal = new Audio("sounds/carddeal2.mp3");
-const showslide = new Audio("sounds/carddeal.mp3");
-const cardhover = new Audio("sounds/paperslide.mp3");
-const shufflehover = new Audio("sounds/shufflehover.mp3");
-const doorsound = new Audio("sounds/door.mp3"); 
-const page3audio = new Audio("sounds/page3audio.mp3");
-const page4audio = new Audio("sounds/fortuneTellersShopMusic.mp3");
+const door2 = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/door2.mp3");
+const flippingSound = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/flipping-sound.mp3");
+const shufflesound = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/shufflesound4.mp3");
+const carddeal = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/carddeal2.mp3");
+const showslide = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/carddeal.mp3");
+const cardhover = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/paperslide.mp3");
+const shufflehover = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/shufflehover.mp3");
+const doorsound = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/door.mp3"); 
+const page3audio = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/page3audio.mp3");
+const page4audio = new Audio("https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/video/upload/v1/sounds/fortuneTellersShopMusic.mp3");
 
 // Tuning audio assets playback speeds
 flippingSound.playbackRate = 1.5;
@@ -84,8 +84,8 @@ window.addEventListener('load', () => {
             wrapper.innerHTML = ` 
                 <input type="checkbox" id="${name}-checkbox" class="cardcheckbox">
                 <label for="${name}-checkbox" id="${name}-label" class="thecard">
-                    <div class="faces ${name}-front" style="background-image: url('images/tarotback.jpg')"></div>
-                    <div class="faces ${name}-back" style="background-image: url('cards/${name}.jpg'); transform: rotateY(180deg)"></div>
+                    <div class="faces ${name}-front" style="background-image: url('https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/tarotback.jpg')"></div>
+                    <div class="faces ${name}-back" style="background-image: url('https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/cards/${name}.jpg'); transform: rotateY(180deg)"></div>
                 </label>`;
             deck.appendChild(wrapper);
         });
@@ -117,7 +117,7 @@ window.addEventListener('load', () => {
         savedChoices = JSON.parse(localStorage.getItem("selectedTarotCards")) || [];
         
         if (savedChoices.length === 0) {
-            slider.innerHTML = `<h2 style="color: #f8c276; font-family: 'Old English Text MT', serif; text-align: center; margin-top: 20vh;">The cards are silent. Please return and make a choice.</h2>`;
+            slider.innerHTML = `<h2 style="color: #f8c276; font-family: 'Old English Text MT', serif; text-align: center; margin-top: 20vh;">The cards are silent. Please return and make a choice.[...]`;
             return;
         }
 
@@ -135,8 +135,8 @@ window.addEventListener('load', () => {
                     wrapper.style.setProperty("--position", i + 1);
                     wrapper.innerHTML = `
                         <div class="thecard">
-                            <div class="faces ${name}-front" style="background-image: url('images/tarotback.jpg')"></div>
-                            <div class="faces ${name}-back" style="background-image: url('cards/${name}.jpg'); transform: rotateY(180deg)"></div>
+                            <div class="faces ${name}-front" style="background-image: url('https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/images/tarotback.jpg')"></div>
+                            <div class="faces ${name}-back" style="background-image: url('https://res.cloudinary.com/c-15e9540d6aa74bc6935e277de3f6a2/image/upload/v1/cards/${name}.jpg'); transform: rotateY(180deg)"></div>
                         </div>`;
                     slider.appendChild(wrapper);
 
