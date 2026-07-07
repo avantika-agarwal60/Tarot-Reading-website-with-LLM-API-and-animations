@@ -24,7 +24,7 @@
     }
     #wrap
     {
-        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/Untitled_design.png");
+        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/firstbg.png");
         background-size: cover;
         background-position: center;
     }
@@ -76,7 +76,7 @@ a {
 #wrap::before {
     content: "";
     position:absolute;
-    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/Untitled_design.png");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/firstbg.png");
     background-size: cover;
     background-position: center;
     width: 100vw;
