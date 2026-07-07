@@ -174,7 +174,7 @@ body:has(input[type="checkbox"]:checked) h4 {
     background-repeat: no-repeat;
     pointer-events: none;
     overflow:hidden;
-    cursor: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448742/cursor_o0lauj.png") 50 50, auto;
+    cursor: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/cursor.png") 50 50, auto;
 }
 @media (max-width: 768px) {
     #show-label {
@@ -185,7 +185,7 @@ body:has(input[type="checkbox"]:checked) h4 {
     }
 }
 body:has(.cardcheckbox:checked) #show-label:hover{
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448743/buttonimg_bkvyuv.jpg");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/buttonimg.jpg");
     background-position: center;
 }
 #showline
@@ -256,7 +256,7 @@ body:has(.cardcheckbox:checked) #show-label
     background-image: none !important;
     background-color: transparent !important;
     border: none !important; 
-    cursor: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448742/cursor_o0lauj.png") 50 50, auto;
+    cursor: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/cursor.png") 50 50, auto;
 }
 input[type="checkbox"]:checked + .thecard {
     transform: translateY(220px);
@@ -279,7 +279,7 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     bottom:0;
     position:absolute;
     z-index: 99;
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448742/door-image_msyxkz.jpg");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image.jpg");
     background-size: 200%;
     width: 50vw;
     height: 100vh;
@@ -288,12 +288,12 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 }
 @media (max-width: 450px) {
     #leftimage, #rightimage {
-        background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448743/door-image-phone_agpttb.png");
+        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image-phone.png");
     }
 }
 @media (min-width: 451px) and (max-width: 768px) {
     #leftimage, #rightimage {
-        background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448743/door-image-mobile_ofuxy4.jpg");
+        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image-mobile.jpg");
     }
 }
 #leftimage
@@ -371,7 +371,7 @@ body.doors-closed #rightimage {
 }
 #shuffleButton:hover
 {
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448746/shuffleimage_ucfnek.jpg");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/shuffleimage.jpg");
     background-size: cover;
     background-position: center;
     background-color: #fff;
@@ -424,7 +424,7 @@ body:has(#show:checked) #thirdpgbutton
 }
 body:has(#show:checked) #thirdpgbutton:hover
 {
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448741/button-image2_an7b08.jpg");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/button-image2.jpg");
     background-size: cover;
     background-position: 50% 75%;
     background-color: #fff;
