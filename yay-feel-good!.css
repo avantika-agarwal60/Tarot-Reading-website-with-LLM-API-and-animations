@@ -299,17 +299,13 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 }
 #leftimage
 {
-    left: 0;
-    bottom: -10%;
-    background-position: left;
+    background-position: left 0px top 0px;
     transform: translateX(-102%);
     position:fixed;
 }
 #rightimage
 {
-    bottom: -10%;
-    right: 0;
-    background-position: right;
+    background-position: right 0px top 0px;
     transform: translateX(102%) !important;
     position:fixed;
 }
