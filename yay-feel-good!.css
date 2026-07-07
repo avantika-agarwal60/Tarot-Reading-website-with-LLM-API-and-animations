@@ -123,7 +123,7 @@ h4 {
     font-family: old\ english\ text\ mt, serif;
     background-color: #042538;
     width: fit-content;
-    left: 32%;
+    left: 32vw;
     color: #f8c276;
     font-size: 30px;
     padding: 20px;
@@ -136,7 +136,8 @@ h4 {
 @media (max-width: 768px) {
     h4 {
         font-size: 15px;
-        left: 20%;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 10px;
         bottom: 20vh;
     }
@@ -299,12 +300,14 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 #leftimage
 {
     left: 0;
+    top: 0;
     background-position: left;
     transform: translateX(-102%);
     position:fixed;
 }
 #rightimage
 {
+    top: 0;
     right: 0;
     background-position: right;
     transform: translateX(102%) !important;
@@ -339,8 +342,7 @@ body.doors-closed #rightimage {
 .pos
 {
     position: absolute;
-}
-#shuffleButton
+}#shuffleButton
 {
     font-family:  old\ english\ text\ mt, serif;
     background-color: #042538;
@@ -364,7 +366,7 @@ body.doors-closed #rightimage {
         font-size: 100%;
         margin-inline: 1em;
         top: 40%;
-        padding-inline: 0.5em;
+        padding: 0.5em;
         padding-top: 0.25em;
         padding-bottom: 0.25em;
     }
@@ -407,7 +409,7 @@ color: #f8c276;
 @media (max-width: 768px) {
     #thirdpgbutton {
         left: 55%;
-        top: 20em;
+        top: 50vh;
         font-size: 15px;
         padding-inline: 0.5em;
         padding-top: 0.25em;
