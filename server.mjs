@@ -7,6 +7,10 @@ import { GoogleGenAI } from "@google/genai";
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 const app = express();
 
+app.get('/', (req, res) => {
+    res.json({ message: "Tarot Backend Server is running successfully!" });
+});
+
 // 1. MIDDLEWARE SETTINGS
 app.use(cors()); 
 app.use(express.json()); 
