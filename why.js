@@ -356,11 +356,13 @@ async function triggerOracleStream(displayElement) {
     }
 
     try {
+
 const response = await fetch('https://tarot-reading-website-with-llm-api-and.onrender.com/api/save-user', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ choices: currentChoices }) 
 });
+
 
 
         if (!response.ok) {
