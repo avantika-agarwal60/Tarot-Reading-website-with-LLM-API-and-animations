@@ -53,7 +53,7 @@ let savedChoices = [];
 // --- 4. AUDIO SYSTEM CONFIGURATION ---
 const door2 = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/door2.mp3");
 const flippingSound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/flipping-sound.mp3");
-const shufflesound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/shufflesound.mp3");
+const shufflesound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/shufflesound4.mp3");
 const carddeal = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/carddeal.mp3");
 const showslide = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/carddeal.mp3");
 const cardhover = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/paperslide.mp3");
