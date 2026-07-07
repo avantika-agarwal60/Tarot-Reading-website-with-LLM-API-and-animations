@@ -51,16 +51,16 @@ let isShuffling = false;
 let savedChoices = [];
 
 // --- 4. AUDIO SYSTEM CONFIGURATION ---
-const door2 = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/door2_xyz123.mp3");
-const flippingSound = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/flipping-sound_abc123.mp3");
-const shufflesound = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/shufflesound4_def456.mp3");
-const carddeal = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/carddeal2_ghi789.mp3");
-const showslide = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/carddeal_jkl012.mp3");
-const cardhover = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/paperslide_mno345.mp3");
-const shufflehover = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/shufflehover_pqr678.mp3");
-const doorsound = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/door_qmw1xj.mp3"); 
-const page3audio = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/page3audio_stu901.mp3");
-const page4audio = new Audio("https://res.cloudinary.com/oih4u0sn/video/upload/v1783448747/fortuneTellersShopMusic_vwx234.mp3");
+const door2 = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/door2.mp3");
+const flippingSound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/flipping-sound.mp3");
+const shufflesound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/shufflesound.mp3");
+const carddeal = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/carddeal.mp3");
+const showslide = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/carddeal.mp3");
+const cardhover = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/paperslide.mp3");
+const shufflehover = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/shufflehover.mp3");
+const doorsound = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/door.mp3"); 
+const page3audio = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/page3audio.mp3");
+const page4audio = new Audio("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/sounds/fortuneTellersShopMusic.mp3");
 
 // Tuning audio assets playback speeds
 flippingSound.playbackRate = 1.5;
@@ -84,8 +84,8 @@ window.addEventListener('load', () => {
             wrapper.innerHTML = ` 
                 <input type="checkbox" id="${name}-checkbox" class="cardcheckbox">
                 <label for="${name}-checkbox" id="${name}-label" class="thecard">
-                    <div class="faces ${name}-front" style="background-image: url('https://res.cloudinary.com/oih4u0sn/image/upload/v1783448747/tarotback_a1b2c3.jpg')"></div>
-                    <div class="faces ${name}-back" style="background-image: url('https://res.cloudinary.com/oih4u0sn/image/upload/v1783448747/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
+                    <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/tarotback.jpg')"></div>
+                    <div class="faces ${name}-back" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
                 </label>`;
             deck.appendChild(wrapper);
         });
@@ -135,8 +135,8 @@ window.addEventListener('load', () => {
                     wrapper.style.setProperty("--position", i + 1);
                     wrapper.innerHTML = `
                         <div class="thecard">
-                            <div class="faces ${name}-front" style="background-image: url('https://res.cloudinary.com/oih4u0sn/image/upload/v1783448747/tarotback_a1b2c3.jpg')"></div>
-                            <div class="faces ${name}-back" style="background-image: url('https://res.cloudinary.com/oih4u0sn/image/upload/v1783448747/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
+                            <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/tarotback.jpg')"></div>
+                            <div class="faces ${name}-back" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
                         </div>`;
                     slider.appendChild(wrapper);
 
