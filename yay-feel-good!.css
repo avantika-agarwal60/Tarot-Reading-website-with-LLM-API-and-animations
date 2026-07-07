@@ -139,7 +139,7 @@ h4 {
         left: 50%;
         transform: translateX(-50%);
         padding: 10px;
-        bottom: 20vh;
+        top: 30vh;
     }
 }
 input[type="checkbox"] {
@@ -300,14 +300,14 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
 #leftimage
 {
     left: 0;
-    top: 0;
+    bottom: 0;
     background-position: left;
     transform: translateX(-102%);
     position:fixed;
 }
 #rightimage
 {
-    top: 0;
+    bottom: 0;
     right: 0;
     background-position: right;
     transform: translateX(102%) !important;
@@ -362,13 +362,11 @@ body.doors-closed #rightimage {
 }
 @media (max-width: 768px) {
     #shuffleButton {
-        width: 2.5em;
+        width: fit-content;
         font-size: 100%;
         margin-inline: 1em;
         top: 40%;
         padding: 0.5em;
-        padding-top: 0.25em;
-        padding-bottom: 0.25em;
     }
 }
 #shuffleButton:hover
