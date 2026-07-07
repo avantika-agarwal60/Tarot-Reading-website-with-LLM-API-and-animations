@@ -356,7 +356,7 @@ async function triggerOracleStream(displayElement) {
     }
 
     try {
-        const response = await fetch('http://127.0.0.1:5000/api/save-user', {
+        const response = await fetch('https://tarot-reading-website-with-llm-api-and.onrender.com', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ choices: currentChoices }) 
