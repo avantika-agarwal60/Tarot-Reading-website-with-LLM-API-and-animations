@@ -54,7 +54,7 @@ app.post('/api/save-user', async (req, res) => {
   }
 });
 // 3. START THE SERVER
-const PORT = 5000;
+const PORT = process.env.port 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
