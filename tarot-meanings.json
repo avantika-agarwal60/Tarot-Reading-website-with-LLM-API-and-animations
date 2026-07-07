@@ -1,0 +1,674 @@
+{
+  "death_upright": {
+    "title": "Death",
+    "orientation": "upright",
+    "keywords": ["Transformation", "Endings", "New Beginnings", "Transition"],
+    "meaning": "A major phase of your life is ending to make way for something far greater. Embrace the change instead of fighting it."
+  },
+  "death_reversed": {
+    "title": "Death",
+    "orientation": "reversed",
+    "keywords": ["Resistance to Change", "Stagnation", "Holding On", "Delay"],
+    "meaning": "You are resisting a necessary transformation or clinging to a dead situation. Let go so the rebirth can begin."
+  },
+  "fool_upright": {
+    "title": "The Fool",
+    "orientation": "upright",
+    "keywords": ["New Beginnings", "Spontaneity", "Faith", "Adventure"],
+    "meaning": "Leap into the unknown with pure trust. This is a time for fresh journeys, optimism, and unburdened potential."
+  },
+  "fool_reversed": {
+    "title": "The Fool",
+    "orientation": "reversed",
+    "keywords": ["Recklessness", "Risk-taking", "Hesitation", "Naivety"],
+    "meaning": "You may be acting recklessly without considering the consequences, or fear is keeping you from taking a necessary leap."
+  },
+  "magician_upright": {
+    "title": "The Magician",
+    "orientation": "upright",
+    "keywords": ["Manifestation", "Willpower", "Resourcefulness", "Skill"],
+    "meaning": "You possess all the tools and talents required to manifest your desires. Align your willpower to make things happen."
+  },
+  "magician_reversed": {
+    "title": "The Magician",
+    "orientation": "reversed",
+    "keywords": ["Manipulation", "Wasted Talent", "Illusions", "Deception"],
+    "meaning": "Be careful of deceptive influences, or recognize where you are misusing your intelligence and wasting your true potential."
+  },
+  "judgement_upright": {
+    "title": "Judgement",
+    "orientation": "upright",
+    "keywords": ["Reflection", "Awakening", "Reckoning", "Purpose"],
+    "meaning": "A period of self-evaluation brings an ideological awakening. Trust your past lessons to make an important crossroad decision."
+  },
+  "judgement_reversed": {
+    "title": "Judgement",
+    "orientation": "reversed",
+    "keywords": ["Self-Doubt", "Inner Critic", "Malicious Gossip", "Stalling"],
+    "meaning": "Loud self-doubt and your harsh inner critic are paralyzing you. Stop judging yourself over past missteps."
+  },
+  "moon_upright": {
+    "title": "The Moon",
+    "orientation": "upright",
+    "keywords": ["Illusion", "Anxiety", "Intuition", "Subconscious"],
+    "meaning": "Things are not entirely as they seem on the surface. Trust your gut instincts to safely navigate through the illusions and hidden anxieties."
+  },
+  "moon_reversed": {
+    "title": "The Moon",
+    "orientation": "reversed",
+    "keywords": ["Release of Fear", "Unmasking Secrets", "Clarity", "Truth"],
+    "meaning": "The fog is finally lifting. Secrets are being brought to light, and subconscious anxieties are losing their grip on you."
+  },
+  "world_upright": {
+    "title": "The World",
+    "orientation": "upright",
+    "keywords": ["Completion", "Integration", "Accomplishment", "Travel"],
+    "meaning": "A major cycle is successfully complete. Celebrate your achievements and enjoy the deep sense of wholeness and unity."
+  },
+  "world_reversed": {
+    "title": "The World",
+    "orientation": "reversed",
+    "keywords": ["Seeking Closure", "Shortcuts", "Stagnation", "Incompletion"],
+    "meaning": "You are struggling to find closure or trying to take shortcuts. Tie up loose ends to properly finish this life chapter."
+  },
+  "hierophant_upright": {
+    "title": "The Hierophant",
+    "orientation": "upright",
+    "keywords": ["Tradition", "Conformity", "Spiritual Wisdom", "Institution"],
+    "meaning": "Seek structure, traditional knowledge, or guidance from a trusted mentor. Aligning with established beliefs offers comfort right now."
+  },
+  "hierophant_reversed": {
+    "title": "The Hierophant",
+    "orientation": "reversed",
+    "keywords": ["Rebellion", "Unconventionality", "New Approaches", "Dogma"],
+    "meaning": "It is time to break free from outdated dogmas and create your own rules. Challenge societal expectations and follow your unorthodox path."
+  },
+  "wheel-of-fortune_upright": {
+    "title": "The Wheel of Fortune",
+    "orientation": "upright",
+    "keywords": ["Good Luck", "Karma", "Destiny", "Turning Point"],
+    "meaning": "The cosmic wheel spins in your favor. Expect sudden lucky breakthroughs, favorable synchronicities, and fated changes."
+  },
+  "wheel-of-fortune_reversed": {
+    "title": "The Wheel of Fortune",
+    "orientation": "reversed",
+    "keywords": ["Bad Luck", "Resisting Change", "Breaking Cycles", "Chaos"],
+    "meaning": "You are experiencing temporary setbacks or bad luck. Recognize negative cycles and actively break them rather than resisting the shift."
+  },
+  "empress_upright": {
+    "title": "The Empress",
+    "orientation": "upright",
+    "keywords": ["Abundance", "Creativity", "Nature", "Nurturing"],
+    "meaning": "Connect deeply with your senses, unleash your creativity, and nurture your surroundings. Abundance is flowing around you."
+  },
+  "empress_reversed": {
+    "title": "The Empress",
+    "orientation": "reversed",
+    "keywords": ["Creative Block", "Dependence", "Smothering", "Barrenness"],
+    "meaning": "You might be smothering others with codependency, or suffering from a severe creative block. Reclaim your independent spark."
+  },
+  "emperor_upright": {
+    "title": "The Emperor",
+    "orientation": "upright",
+    "keywords": ["Authority", "Structure", "Control", "Solid Foundation"],
+    "meaning": "Bring discipline, rigid structure, and protective logic into your life. Stand tall in your personal power and command authority."
+  },
+  "emperor_reversed": {
+    "title": "The Emperor",
+    "orientation": "reversed",
+    "keywords": ["Tyranny", "Rigidity", "Coldness", "Powerlessness"],
+    "meaning": "Someone nearby is acting like an absolute tyrant, or your own self-imposed rules have become way too cold and rigid."
+  },
+  "lovers_upright": {
+    "title": "The Lovers",
+    "orientation": "upright",
+    "keywords": ["Love", "Harmony", "Partnerships", "Alignment"],
+    "meaning": "Deep harmony, choices, and shared core values are emphasized. This marks beautiful communication and balanced connections."
+  },
+  "lovers_reversed": {
+    "title": "The Lovers",
+    "orientation": "reversed",
+    "keywords": ["Disharmony", "Misalignment", "Asymmetry", "Bad Choices"],
+    "meaning": "Asymmetric values or hidden conflicts are threatening a relationship. Realign your personal integrity before making a choice."
+  },
+  "hanged-man_upright": {
+    "title": "The Hanged Man",
+    "orientation": "upright",
+    "keywords": ["Pause", "Surrender", "New Perspective", "Sacrifice"],
+    "meaning": "Intentionally pause your actions. Surrender to the present delay and view your issues from an entirely inverted perspective."
+  },
+  "hanged-man_reversed": {
+    "title": "The Hanged Man",
+    "orientation": "reversed",
+    "keywords": ["Stalling", "Resistance", "Egotism", "Wasted Sacrifice"],
+    "meaning": "You are stubbornly stalling or sacrificing your time for things that simply do not matter. Stop fighting the natural flow."
+  },
+  "chariot_upright": {
+    "title": "The Chariot",
+    "orientation": "upright",
+    "keywords": ["Willpower", "Direction", "Control", "Victory"],
+    "meaning": "Stay focused, harness your opposing forces, and charge forward. Pure determination will guarantee absolute victory."
+  },
+  "chariot_reversed": {
+    "title": "The Chariot",
+    "orientation": "reversed",
+    "keywords": ["Loss of Direction", "Aggression", "Impulsiveness", "No Control"],
+    "meaning": "You are burning out due to a complete lack of direction, or aggressive impulses are running your ship completely off course."
+  },
+  "devil_upright": {
+    "title": "The Devil",
+    "orientation": "upright",
+    "keywords": ["Shadow Self", "Attachment", "Addiction", "Restriction"],
+    "meaning": "Unhealthy attachments, material dependencies, or self-sabotaging thoughts are trapping you. Examine your shadows."
+  },
+  "devil_reversed": {
+    "title": "The Devil",
+    "orientation": "reversed",
+    "keywords": ["Detachment", "Breaking Free", "Reclaiming Power", "Revelation"],
+    "meaning": "You are severing toxic chains, shedding bad habits, and reclaiming ultimate autonomy over your life."
+  },
+  "hermit_upright": {
+    "title": "The Hermit",
+    "orientation": "upright",
+    "keywords": ["Solitude", "Soul-Searching", "Inner Guidance", "Wisdom"],
+    "meaning": "Withdraw temporarily from the external noise. Look inward for answers—the truth can only be found in quiet contemplation."
+  },
+  "hermit_reversed": {
+    "title": "The Hermit",
+    "orientation": "reversed",
+    "keywords": ["Loneliness", "Isolation", "Paranoia", "Withdrawal"],
+    "meaning": "Your healthy reflection has curdled into toxic isolation and paranoia. Reconnect with society before you lose perspective."
+  },
+  "high-priestess_upright": {
+    "title": "The High Priestess",
+    "orientation": "upright",
+    "keywords": ["Intuition", "Sacred Knowledge", "Divine Feminine", "Secrets"],
+    "meaning": "Look past the surface world. Dive into your dreams, trust your psychic flashes, and let secrets reveal themselves to you naturally."
+  },
+  "high-priestess_reversed": {
+    "title": "The High Priestess",
+    "orientation": "reversed",
+    "keywords": ["Ignoring Intuition", "Secret Motives", "Surface-Level Thinking"],
+    "meaning": "You are drowning out your quiet inner voice with logic, or ignoring glaring warning signs about someone's secret motives."
+  },
+  "justice_upright": {
+    "title": "Justice",
+    "orientation": "upright",
+    "keywords": ["Fairness", "Truth", "Cause and Effect", "Law"],
+    "meaning": "Absolute truth and balanced fairness prevail. Your current situation will be decided equitably based on pure karmic cause and effect."
+  },
+  "justice_reversed": {
+    "title": "Justice",
+    "orientation": "reversed",
+    "keywords": ["Unfairness", "Unaccountability", "Dishonesty", "Bias"],
+    "meaning": "You are dealing with unfair biases or refusing to take accountability for your own actions. Face reality cleanly."
+  },
+  "star_upright": {
+    "title": "The Star",
+    "orientation": "upright",
+    "keywords": ["Hope", "Faith", "Renewal", "Spirituality"],
+    "meaning": "Peace and quiet renewal are returning to your life. The universe is blessing you with divine inspiration and enduring hope."
+  },
+  "star_reversed": {
+    "title": "The Star",
+    "orientation": "reversed",
+    "keywords": ["Despair", "Discouragement", "Lack of Faith", "Disconnection"],
+    "meaning": "A heavy cloud of discouragement is dimming your inner light. Reconnect to a higher sense of faith; this darkness is only temporary."
+  },
+  "strength_upright": {
+    "title": "Strength",
+    "orientation": "upright",
+    "keywords": ["Courage", "Persuasion", "Compassion", "Inner Power"],
+    "meaning": "True power lies in quiet stamina, patience, and soft compassion, not brute physical force. Quietly tame your inner beasts."
+  },
+  "strength_reversed": {
+    "title": "Strength",
+    "orientation": "reversed",
+    "keywords": ["Self-Doubt", "Weakness", "Raw Emotion", "Inadequacy"],
+    "meaning": "Insecurity and raw emotional outbursts are draining your energy. Remember your inner core to steady your shaky foundations."
+  },
+  "sun_upright": {
+    "title": "The Sun",
+    "orientation": "upright",
+    "keywords": ["Success", "Vitality", "Joy", "Enlightenment"],
+    "meaning": "Radiant positivity, joy, and physical vitality surround you. Everything you touch right now is illuminated with pristine success."
+  },
+  "sun_reversed": {
+    "title": "The Sun",
+    "orientation": "reversed",
+    "keywords": ["Inner Child", "Temporary Gloom", "Overly Optimistic"],
+    "meaning": "The skies are mostly clear, but minor blockages or ungrounded optimism are obscuring your joy. Reconnect with your simple inner child."
+  },
+  "temperance_upright": {
+    "title": "Temperance",
+    "orientation": "upright",
+    "keywords": ["Balance", "Moderation", "Patience", "Alchemy"],
+    "meaning": "Practice calm moderation and intentional patience. Synthesize conflicting elements into a beautifully balanced, healing mixture."
+  },
+  "temperance_reversed": {
+    "title": "Temperance",
+    "orientation": "reversed",
+    "keywords": ["Imbalance", "Excess", "Clashing", "Short-sightedness"],
+    "meaning": "Extreme overindulgence or clashing priorities are fracturing your peace. Re-center your daily habits immediately."
+  },
+  "tower_upright": {
+    "title": "The Tower",
+    "orientation": "upright",
+    "keywords": ["Sudden Change", "Upheaval", "Chaos", "Revelation"],
+    "meaning": "An absolute flash of lightning is breaking down a fragile structure built on illusions. Out of the chaos comes profound revelation."
+  },
+  "tower_reversed": {
+    "title": "The Tower",
+    "orientation": "reversed",
+    "keywords": ["Delaying the Inevitable", "Avoiding Disaster", "Fear of Ruin"],
+    "meaning": "You are anxiously trying to prop up a structurally doomed situation. Let it crash so you can clean the bedrock."
+  },
+  "aceOfCups_upright": {
+    "title": "Ace of Cups",
+    "orientation": "upright",
+    "keywords": ["New Feelings", "Creativity", "Spiritual Love", "Intuition"],
+    "meaning": "An overwhelming wave of pure emotional fulfillment, fresh love, or creative intuition is bubbling over the rim of your consciousness."
+  },
+  "aceOfCups_reversed": {
+    "title": "Ace of Cups",
+    "orientation": "reversed",
+    "keywords": ["Blocked Emotions", "Repressed Feelings", "Empty Cup"],
+    "meaning": "Your emotional reservoir has run dry, or you are severely repressing your true feelings. Turn inward to refill your cup."
+  },
+  "2OfCups_upright": {
+    "title": "Two of Cups",
+    "orientation": "upright",
+    "keywords": ["Connection", "Mutual Attraction", "Partnership"],
+    "meaning": "A beautiful soul-level partnership or mutual agreement is forming. Two distinct paths fuse into complete emotional harmony."
+  },
+  "2OfCups_reversed": {
+    "title": "Two of Cups",
+    "orientation": "reversed",
+    "keywords": ["Breakup", "Disharmony", "Unrequited Love", "Mismatched"],
+    "meaning": "A key relationship is suffering from major miscommunications or emotional asymmetry. Re-evaluate your relational bonds."
+  },
+  "3OfCups_upright": {
+    "title": "Three of Cups",
+    "orientation": "upright",
+    "keywords": ["Celebration", "Friendship", "Community", "Collaboration"],
+    "meaning": "Gather with your trusted community, laugh loudly, and celebrate a creative victory. Joy thrives in supportive networks."
+  },
+  "3OfCups_reversed": {
+    "title": "Three of Cups",
+    "orientation": "reversed",
+    "keywords": ["Gossip", "Overindulgence", "Isolation", "Three's a Crowd"],
+    "meaning": "Overindulgent partying is distracting you, or toxic social circles are targeting your peace with unnecessary drama and gossip."
+  },
+  "4OfCups_upright": {
+    "title": "Four of Cups",
+    "orientation": "upright",
+    "keywords": ["Apathy", "Contemplation", "Boredom", "Refusal"],
+    "meaning": "You are feeling thoroughly uninspired, bored, and dismissive. Look up—the universe is offering a gift you are completely ignoring."
+  },
+  "4OfCups_reversed": {
+    "title": "Four of Cups",
+    "orientation": "reversed",
+    "keywords": ["Awareness", "New Motivation", "Acceptance"],
+    "meaning": "You are finally shaking off your mental fog. You are ready to open your eyes, accept new invites, and rejoin the world."
+  },
+  "5OfCups_upright": {
+    "title": "Five of Cups",
+    "orientation": "upright",
+    "keywords": ["Loss", "Regret", "Grief", "Disappointment"],
+    "meaning": "Do not fixate entirely on the spilled cups behind you. Mourn your loss, but turn around to notice the full cups still standing."
+  },
+  "5OfCups_reversed": {
+    "title": "Five of Cups",
+    "orientation": "reversed",
+    "keywords": ["Moving On", "Acceptance", "Finding Hope", "Forgiveness"],
+    "meaning": "The intense grieving period is concluding. You are finding the strength to pick up your remaining assets and move on with hope."
+  },
+  "6OfCups_upright": {
+    "title": "Six of Cups",
+    "orientation": "upright",
+    "keywords": ["Nostalgia", "Childhood", "Innocence", "Reconnecting"],
+    "meaning": "A comforting wave of childhood memories or an old friend returns. Bask in pure innocence and simple, past joys."
+  },
+  "6OfCups_reversed": {
+    "title": "Six of Cups",
+    "orientation": "reversed",
+    "keywords": ["Stuck in the Past", "Leaving Home", "Growing Up"],
+    "meaning": "You are viewing the past through rose-tinted glasses, preventing you from living today. It is time to maturely step forward."
+  },
+  "7OfCups_upright": {
+    "title": "Seven of Cups",
+    "orientation": "upright",
+    "keywords": ["Choices", "Illusions", "Wishful Thinking", "Fantasy"],
+    "meaning": "Too many tempting options are confusing you. Most of these shimmering clouds are pure fantasy; pick based on cold reality."
+  },
+  "7OfCups_reversed": {
+    "title": "Seven of Cups",
+    "orientation": "reversed",
+    "keywords": ["Clarity", "Decisiveness", "Overcoming Illusion"],
+    "meaning": "The dizzying choice paralysis is vanishing. You are breaking past the glamorous illusions and selecting your real path with absolute clarity."
+  },
+  "8OfCups_upright": {
+    "title": "Eight of Cups",
+    "orientation": "upright",
+    "keywords": ["Walking Away", "Disappointment", "Searching for Truth"],
+    "meaning": "Though it hurts to leave what you spent so much time building, it no longer feeds your soul. Turn your back and climb higher."
+  },
+  "8OfCups_reversed": {
+    "title": "Eight of Cups",
+    "orientation": "reversed",
+    "keywords": ["Fear of Moving On", "Stagnation", "Returning to Toxicity"],
+    "meaning": "You are clinging to an unfulfilling arrangement out of raw fear of the unknown. Stop settling for crumbs."
+  },
+  "9OfCups_upright": {
+    "title": "Nine of Cups",
+    "orientation": "upright",
+    "keywords": ["Contentment", "Satisfaction", "Wish Come True"],
+    "meaning": "This is the 'Wish Card.' Enjoy deep physical satisfaction, material comfort, and the profound realization of a long-held dream."
+  },
+  "9OfCups_reversed": {
+    "title": "Nine of Cups",
+    "orientation": "reversed",
+    "keywords": ["Greed", "Smugness", "Overindulgence", "Empty Desires"],
+    "meaning": "You got exactly what you wanted, but it feels surprisingly hollow inside. Check if you sacrificed your morals for vanity."
+  },
+  "10OfCups_upright": {
+    "title": "Ten of Cups",
+    "orientation": "upright",
+    "keywords": ["Divine Love", "Bliss", "Harmony", "Family Alignment"],
+    "meaning": "An absolute picture-perfect alignment of domestic bliss, loving family support, and radiant emotional completion surrounds your life."
+  },
+  "10OfCups_reversed": {
+    "title": "Ten of Cups",
+    "orientation": "reversed",
+    "keywords": ["Broken Home", "Domestic Strife", "Misaligned Values"],
+    "meaning": "Underlying arguments or misaligned ideals are disrupting your household harmony. Fix the foundation with open conversation."
+  },
+  "pageOfCups_upright": {
+    "title": "Page of Cups",
+    "orientation": "upright",
+    "keywords": ["Creative Spark", "Intuitive Message", "Curiosity"],
+    "meaning": "An unexpected, sweet message or a surge of artistic inspiration is arriving. Keep an open, childlike heart to receive it."
+  },
+  "pageOfCups_reversed": {
+    "title": "Page of Cups",
+    "orientation": "reversed",
+    "keywords": ["Emotional Immaturity", "Creative Block", "Escapism"],
+    "meaning": "Emotional tantrums, creative blocks, or toxic escapism are dragging you down. Face reality instead of fleeing into daydreaming fantasies."
+  },
+  "knightOfCups_upright": {
+    "title": "Knight of Cups",
+    "orientation": "upright",
+    "keywords": ["Romance", "Charm", "Imagination", "Proposal"],
+    "meaning": "A charming, poetic offer or romantic invitation is riding into your life. Follow your artistic heart with passion."
+  },
+  "knightOfCups_reversed": {
+    "title": "Knight of Cups",
+    "orientation": "reversed",
+    "keywords": ["Moody", "Unrealistic", "Heartbreaker", "Manipulation"],
+    "meaning": "Someone is using deceptive charm or moodiness to manipulate you. Do not let romantic daydreams blind you to logic."
+  },
+  "queenOfCups_upright": {
+    "title": "Queen of Cups",
+    "orientation": "upright",
+    "keywords": ["Compassion", "Calm", "Emotional Stability", "Empath"],
+    "meaning": "Embody deep emotional maturity, infinite empathy, and healing energy. Hold a peaceful space for yourself and others."
+  },
+  "queenOfCups_reversed": {
+    "title": "Queen of Cups",
+    "orientation": "reversed",
+    "keywords": ["Codependency", "Insecurity", "Martyrdom"],
+    "meaning": "You are completely draining your emotional batteries playing the martyr for others, or hiding deep, insecure jealousy inside."
+  },
+  "kingOfCups_upright": {
+    "title": "King of Cups",
+    "orientation": "upright",
+    "keywords": ["Emotional Balance", "Control", "Generosity", "Diplomacy"],
+    "meaning": "Balance your analytical mind with profound emotional intelligence. Navigate difficult challenges with calm diplomacy and wisdom."
+  },
+  "kingOfCups_reversed": {
+    "title": "King of Cups",
+    "orientation": "reversed",
+    "keywords": ["Emotional Manipulation", "Mood Swings", "Coldness"],
+    "meaning": "Beware of an emotionally vindictive person playing passive-aggressive mind games, or notice where your own mood swings are harming others."
+  },
+  "aceOfPentacles_upright": {
+    "title": "Ace of Pentacles",
+    "orientation": "upright",
+    "keywords": ["New Opportunity", "Financial Prosperity", "Manifestation"],
+    "meaning": "A golden seed of tangible wealth, career progression, or a solid new business opportunity is landing directly in your hands."
+  },
+  "aceOfPentacles_reversed": {
+    "title": "Ace of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Lost Opportunity", "Financial Delays", "Poor Planning"],
+    "meaning": "A financial venture is stalling due to poor planning or shaky foundations. Reconsider an investment before committing cash."
+  },
+  "2OfPentacles_upright": {
+    "title": "Two of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Balance", "Adaptability", "Juggling Priorities"],
+    "meaning": "You are dynamically balancing multi-tasking demands. Stay agile and fluid to ride the waves of busy daily change."
+  },
+  "2OfPentacles_reversed": {
+    "title": "Two of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Disorganization", "Overcommitted", "Financial Chaos"],
+    "meaning": "You are trying to juggle way too many balls at once. Drop a secondary project before everything crashes in disorganization."
+  },
+  "3OfPentacles_upright": {
+    "title": "Three of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Teamwork", "Collaboration", "Mastery", "Building"],
+    "meaning": "Beautiful collaborative effort, architectural building, and shared skills yield high results. Great minds are working in unison."
+  },
+  "3OfPentacles_reversed": {
+    "title": "Three of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Poor Cooperation", "Lack of Skill", "Ego Clashes"],
+    "meaning": "Petty office politics, massive ego clashes, or a severe lack of baseline teamwork are ruining the current project."
+  },
+  "4OfPentacles_upright": {
+    "title": "Four of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Security", "Stability", "Frugality", "Control"],
+    "meaning": "You have built excellent financial stability, but ensure your extreme frugality isn't manifesting as an anxious scarcity mindset."
+  },
+  "4OfPentacles_reversed": {
+    "title": "Four of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Greed", "Stinginess", "Letting Go", "Risk"],
+    "meaning": "You are desperately hoarding your resources out of panic. Open your clenched hands and let life circulate naturally."
+  },
+  "5OfPentacles_upright": {
+    "title": "Five of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Financial Loss", "Hardship", "Isolation", "Worry"],
+    "meaning": "Hard times or financial stresses are causing temporary panic. Look closer—the church windows are glowing, and help is available near you."
+  },
+  "5OfPentacles_reversed": {
+    "title": "Five of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Recovery", "End of Hardship", "Spiritual Growth"],
+    "meaning": "The grueling financial winter is coming to a close. Debts are being resolved, and physical recovery is well underway."
+  },
+  "6OfPentacles_upright": {
+    "title": "Six of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Generosity", "Charity", "Sharing Wealth", "Balance"],
+    "meaning": "Wealth is circulating equitably. Be generous if you hold the scales, or accept charitable assistance gracefully if you need it."
+  },
+  "6OfPentacles_reversed": {
+    "title": "Six of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Strings Attached", "Power Dynamics", "Unpaid Debt"],
+    "meaning": "Be careful of deceptive offers that come wrapped in heavy strings attached, or watch for unfair power dynamics in a contract."
+  },
+  "7OfPentacles_upright": {
+    "title": "Seven of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Long-Term View", "Patience", "Investment", "Harvest"],
+    "meaning": "Step back from your garden plots and observe your growth. Your long-term investments require patient waiting to fully mature."
+  },
+  "7OfPentacles_reversed": {
+    "title": "Seven of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Impatience", "No Rewards", "Wasted Effort"],
+    "meaning": "You are feeling highly impatient and frustrated with slow growth. Re-evaluate if you are pouring energy into dead soil."
+  },
+  "8OfPentacles_upright": {
+    "title": "Eight of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Apprenticeship", "Diligence", "Mastery", "Detail"],
+    "meaning": "Put your head down and hone your skills. Meticulous focus, daily practice, and raw diligence are turning you into an absolute master."
+  },
+  "8OfPentacles_reversed": {
+    "title": "Eight of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Perfectionism", "Monotony", "Misdirected Activity"],
+    "meaning": "Toxic perfectionism is paralyzing your progress, or you are trapped in a dead-end, mind-numbing routine. Change your focus."
+  },
+  "9OfPentacles_upright": {
+    "title": "Nine of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Abundance", "Luxury", "Self-Sufficiency", "Success"],
+    "meaning": "Enjoy the refined fruits of your independent labor. You have cultivated absolute financial autonomy, luxury, and peace."
+  },
+  "9OfPentacles_reversed": {
+    "title": "Nine of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Over-extended", "Superficiality", "Financial Danger"],
+    "meaning": "You are projecting a fake lifestyle of luxury or living far beyond your realistic means. Re-ground your spending habits."
+  },
+  "10OfPentacles_upright": {
+    "title": "Ten of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Legacy", "Wealth", "Long-Term Security", "Ancestry"],
+    "meaning": "This marks generational wealth, enduring family security, and foundational legacy. You are safely anchored by a rich heritage."
+  },
+  "10OfPentacles_reversed": {
+    "title": "Ten of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Financial Failure", "Family Disputes", "Short-Term Losses"],
+    "meaning": "Bitter arguments over inheritance, family real estate, or short-term speculative financial failures are threatening your peace."
+  },
+  "pageOfPentacles_upright": {
+    "title": "Page of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Ambition", "Skill Development", "New Venture"],
+    "meaning": "A grounded new study course, business concept, or clear ambition is taking shape. Plan the practical logistics carefully."
+  },
+  "pageOfPentacles_reversed": {
+    "title": "Page of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Procrastination", "Short-Sightedness", "Lazy"],
+    "meaning": "Endless procrastination and a total lack of follow-through are stalling your career. Stop dreaming and start working."
+  },
+  "knightOfPentacles_upright": {
+    "title": "Knight of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Hard Work", "Routine", "Productivity", "Loyalty"],
+    "meaning": "The most reliable knight in the deck. Success is guaranteed through methodical routines, unyielding loyalty, and steady execution."
+  },
+  "knightOfPentacles_reversed": {
+    "title": "Knight of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Boredom", "Stagnation", "Laziness", "Rigid Routine"],
+    "meaning": "Your daily routine has become a mind-numbing prison of pure boredom. Break out of your rigid tracks and introduce spontaneity."
+  },
+  "queenOfPentacles_upright": {
+    "title": "Queen of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Practicality", "Nurturing", "Financial Security"],
+    "meaning": "Balance home bliss with high business success. You are down-to-earth, practically secure, and deeply resourcefully grounded."
+  },
+  "queenOfPentacles_reversed": {
+    "title": "Queen of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Work-Life Imbalance", "Jealousy", "Smothering Control"],
+    "meaning": "Your work-life balance is totally shattered. Fear of financial instability is forcing you into obsessive, smothering patterns."
+  },
+  "kingOfPentacles_upright": {
+    "title": "King of Pentacles",
+    "orientation": "upright",
+    "keywords": ["Wealth", "Business Acumen", "Security", "Leadership"],
+    "meaning": "You have reached the pinnacle of material success. Run your empire with supreme business acumen, calm authority, and stable leadership."
+  },
+  "kingOfPentacles_reversed": {
+    "title": "King of Pentacles",
+    "orientation": "reversed",
+    "keywords": ["Greed", "Materialism", "Corruption", "Rigidity"],
+    "meaning": "A rigid mindset or toxic obsession with status is blinding you. Do not let ruthless materialism corrupt your character."
+  },
+  "aceOfSwords_upright": {
+    "title": "Ace of Swords",
+    "orientation": "upright",
+    "keywords": ["Breakthrough", "Clarity", "Sharp Mind", "Victory"],
+    "meaning": "A sudden wave of mental clarity brings a major breakthrough. The truth is sharp and clear, allowing you to cut through confusion and conquer obstacles."
+  },
+  "2OfSwords_upright": {
+    "title": "Two of Swords",
+    "orientation": "upright",
+    "keywords": ["Stalemate", "Difficult Choice", "Blocked Emotions", "Avoidance"],
+    "meaning": "You are facing a difficult crossroad and trying to avoid making a choice. Remaining neutral or blocking out the facts will only prolong the stalemate."
+  },
+  "3OfSwords_upright": {
+    "title": "Three of Swords",
+    "orientation": "upright",
+    "keywords": ["Heartbreak", "Grief", "Emotional Pain", "Separation"],
+    "meaning": "A sharp hurt, disappointment, or sudden loss brings emotional pain. Acknowledge your grief completely so that the natural healing process can begin."
+  },
+  "4OfSwords_upright": {
+    "title": "Four of Swords",
+    "orientation": "upright",
+    "keywords": ["Rest", "Recovery", "Meditation", "Contemplation"],
+    "meaning": "It is time to step back from stress and recharge your mental energy. Retreat into a quiet space to rest your mind and body before facing the world again."
+  },
+  "5OfSwords_upright": {
+    "title": "Five of Swords",
+    "orientation": "upright",
+    "keywords": ["Conflict", "Winning at All Costs", "Betrayal", "Hostility"],
+    "meaning": "An argument or battle has left behind resentment and tension. Winning this conflict by playing dirty will yield a empty victory that damages your relationships."
+  },
+  "6OfSwords_upright": {
+    "title": "Six of Swords",
+    "orientation": "upright",
+    "keywords": ["Transition", "Moving On", "Leaving Baggage", "Necessary Change"],
+    "meaning": "You are moving away from a turbulent situation toward calmer, more stable waters. It may be sad to leave things behind, but this transition is necessary."
+  },
+  "aceOfSwords_reversed": {
+    "title": "Ace of Swords",
+    "orientation": "reversed",
+    "keywords": ["Confusion", "Miscommunication", "Clouded Judgement", "Brutality"],
+    "meaning": "Your thoughts are clouded by confusion or misinformation. Avoid making major choices right now, and be careful that your words do not cut others too deeply."
+  },
+  "2OfSwords_reversed": {
+    "title": "Two of Swords",
+    "orientation": "reversed",
+    "keywords": ["Information Overload", "Indecision", "Truth Revealed", "Lifting the Veil"],
+    "meaning": "The stalemate is breaking as new information comes to light. You can no longer avoid the decision; the time for choosing has arrived."
+  },
+  "3OfSwords_reversed": {
+    "title": "Three of Swords",
+    "orientation": "reversed",
+    "keywords": ["Recovery", "Repressed Grief", "Releasing Pain", "Optimism"],
+    "meaning": "You are beginning to heal from a painful heartbreak or loss. Alternatively, you may be stuffing your feelings down; let yourself feel the pain so you can clear it."
+  },
+  "4OfSwords_reversed": {
+    "title": "Four of Swords",
+    "orientation": "reversed",
+    "keywords": ["Burnout", "Exhaustion", "Restlessness", "Returning to Action"],
+    "meaning": "You are pushing past your breaking point and risking total burnout. Stop ignoring your body's warnings, or you will be forced to rest due to exhaustion."
+  },
+  "5OfSwords_reversed": {
+    "title": "Five of Swords",
+    "orientation": "reversed",
+    "keywords": ["Lingering Resentment", "Moving Past Conflict", "Forgiveness", "Compromise"],
+    "meaning": "The battle is finally ending, and you are ready to let go of old grudges. It is time to drop your defenses, bury the hatchet, and begin rebuilding trust."
+  },
+  "6OfSwords_reversed": {
+    "title": "Six of Swords",
+    "orientation": "reversed",
+    "keywords": ["Stuck in the Past", "Resisting Change", "Carrying Baggage", "Rough Waters"],
+    "meaning": "You are actively resisting a necessary life transition or dragging your past emotional baggage with you. The journey forward is rocky because you refuse to let go."
+  }
+}

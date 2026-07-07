@@ -1,0 +1,279 @@
+#banner
+{
+    width: 100%;
+    height: 100vh;
+    top: 20%;
+    position:fixed;
+    background-color: transparent;
+    text-align: center;
+    pointer-events: auto;
+}
+#slider
+{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top:40px;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1500px);
+    animation: scrollanimation linear;
+    animation-timeline: scroll(root);
+    background-color: transparent;
+    pointer-events: auto;
+}
+@keyframes scrollanimation 
+{
+    from
+    {
+    transform: perspective(1500px) rotateY(0deg) rotateZ(0deg) rotateX(-10deg);
+    }
+    to
+    {
+        transform: perspective(1500px) rotateY(360deg) rotateZ(4deg) rotateX(16deg);
+    }
+}
+.items
+{
+    width: 7.5em;  
+    height: 212px; 
+    top: calc(50% - 106px);  
+    position:absolute;
+    inset: 0 0 0 0;
+    transform-style: preserve-3d;
+    transform:
+    rotateY(calc((var(--position) - 1) * (360 / var(--quantity))*1deg))
+    translateZ(280px);
+    background-color: transparent;
+    pointer-events: auto;
+}
+body{
+    height: 300vh;
+}
+#bg
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url("images/page3bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: auto;
+    z-index: -10;
+}
+#crystalball
+{
+    width: 20em;
+    height: 40em;
+    position: absolute; /* Stays absolute relative to the center of #slider */
+    
+    /* Absolute centering coordinates */
+    left: 50%;
+    top: 50%;
+    
+    background-image: url("images/crystalBall.png");
+    background-size: cover;
+    background-position: center;
+    transform-style: preserve-3d;
+    pointer-events: auto;
+    
+    /* Tied to the scrollbar timeline to perfectly mirror and cancel the carousel spin */
+    animation: stabilizeBall linear;
+    animation-timeline: scroll(root);
+}
+
+/* ==========================================================================
+   THE COUNTER-ROTATION ENGINE
+   This actively untwists the ball's X and Y axes at the exact same rate 
+   the slider twists them, locking the ball face-forward to the viewer.
+   ========================================================================== */
+@keyframes stabilizeBall 
+{
+    from
+    {
+        /* Inverts rotateY(0deg) and rotateX(-10deg) */
+        transform: translate(-50%, -50%) translateZ(4px) rotateX(10deg) rotateY(0deg);
+    }
+    to
+    {
+        /* Inverts rotateY(360deg) and rotateX(16deg) */
+        transform: translate(-50%, -50%) translateZ(0px) rotateX(-16deg) rotateY(-360deg);
+    }
+}
+#meanings
+{
+    padding: 5%;
+    position: fixed;
+    width: 36vw;
+    height: 5.8vh;
+    left: calc(50vw - 23vw);
+    top: 4%;
+    background-image: url("images/labeel.png");
+    background-position: 50% 47%;
+    background-repeat: no-repeat;
+    background-size: 99%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: old\ english\ text\ mt, serif;
+    transform: translateX(0);
+    overflow-y: hidden;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.meaning-label
+{
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    transform: scale(0.95);
+}
+#container
+{
+    position: fixed;
+    width: 30vw;
+    height: 90em;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: old\ english\ text\ mt, serif;
+    overflow-y:visible;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+
+}
+.title, .orientation, .meaning
+{
+    padding: 0;
+    padding-inline: 30px;
+    height:fit-content;
+    font-size: small;
+    margin:0;
+    background-color: transparent;
+    color:black;
+    text-align: center;
+}
+.title
+{
+    top:0;
+    left:0;
+}
+.meaning
+{
+    width: 350px;
+    text-wrap: wrap;
+    margin-left: 5px;
+}
+@media (max-width: 768px) {
+    #container {
+        width: 80vw;
+        height: 100vh;;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title, .orientation, .meaning {
+        padding-inline: 10px;
+        font-size: 80%;
+    }
+    .meaning-label {
+        width: 97%;
+        font-size: 85%;
+    }
+    #meanings {
+        width: 98%;
+        height: 14%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .meaning {
+        width: 90%;
+        margin-left: 0;
+    }
+}
+.thecard
+{
+    pointer-events: auto;
+    transform-style: preserve-3d; 
+    display: block;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+}
+.show
+{
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.faces 
+{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}#fourthpagebutton
+{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px); /* Set initial state directly */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(35, 4, 44); 
+    background-image:none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0; /* Hidden by default */
+   font-family: old\ english\ text\ mt, serif;
+    /* Link to the root scrollbar */
+    animation: fadeInUp linear both;
+    animation-timeline: scroll(root);
+    
+    /* CRUCIAL: The animation will only execute in the last 1% of the scrollbar */
+    animation-range: 95% 100%; 
+}
+
+#fourthpagebutton:hover
+{
+    background-image: url("images/fourthpagebuttonhover.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#fourthpagelink
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Updated keyframes to account for your layout's horizontal centering transform */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}

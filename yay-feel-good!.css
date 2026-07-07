@@ -1,0 +1,439 @@
+*{
+    background-color: transparent;
+    scrollbar-gutter: stable;
+}
+#inner {
+    transform: rotate(0deg);
+    background-image: url("images/sun.png");
+    background-size: 150%;
+    background-position: center;
+    border-radius: 50%;
+    border-width: 0px;
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    transition: transform 1.5s ease-in-out;
+    top: 50%;
+}
+@media (width<= 768px) {
+    #inner {
+        width: 150px;
+        height: 150px;
+        top: 50%;
+        transform: rotate(0deg) translateY(8%);
+    }
+    #wrap
+    {
+        background-image: url("images/Untitled\ design.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+#outer
+{
+    top: 50%;
+}
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#enterline
+{
+  font-family: old\ english\ text\ mt, serif;
+  font-size: 180%;
+  padding: 30px;
+  color: rgba(255,255,255,0);
+  transform: translateY(20px);
+  transition: text-shadow 2s ease-in-out, color 2s ease-in-out, transform 2s ease-in-out;
+
+  text-shadow: none;
+}
+#inner:hover{
+    transform: rotate(90deg);
+}
+#inner:hover + #enterline {
+    color: rgba(255,255,255,1);
+    transform: translateY(0px);
+   text-shadow: 0 0 8px #fff,
+    -2px 2px 7px rgb(255, 217, 0),
+    -3px 3px 8px rgb(255, 217, 0),
+    -1px 1px 0 rgb(255, 217, 0),
+     1px -1px #04425a,
+    2px -2px 5px #04425a,
+    3px -3px 6px #04425a;
+    }
+ #wrap:has(#inner:hover)::before {
+    opacity: 1;
+ }
+#outer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#wrap::before {
+    content: "";
+    position:absolute;
+    background-image: url("images/Untitled\ design.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    filter: brightness(0.8);
+}
+#welcome
+{
+    color: #fff;
+    text-align: center;
+    font-family: old\ english\ text\ mt, serif;
+    top: 25vh;
+    position: absolute;
+    justify-self: center;
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+#wrap:has(#inner:hover) #welcome
+{
+    transform: translateY(-20px);
+    opacity:0;
+}
+#wrap {
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#deck {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    perspective: 1000px;
+    margin-left: 27vw;
+    max-width: fit-content;
+    position: relative;
+}
+h4 {
+    position: relative;
+    font-family: old\ english\ text\ mt, serif;
+    background-color: #042538;
+    width: fit-content;
+    left: 32%;
+    color: #f8c276;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    top: 200px;
+    font-size: 30px;
+    transform: translateY(0px);
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, visibility 0.4s ease-in-out, transform 0.3s ease-in-out;
+} 
+@media (max-width: 768px) {
+    h4 {
+        font-size: 15px;
+        left: 20%;
+        padding: 10px;
+        bottom: 20vh;
+    }
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]:checked + .card {
+    filter:brightness(1.2); 
+    transform: translateY(220px);
+}
+body:has(input[type="checkbox"]:checked) h4 {
+    color: transparent;
+    background-color: transparent;
+    visibility: hidden;
+    transform: translateY(25px);
+}
+#show {
+    display: none;
+}
+#show-label {
+    display: flex;
+    font-size: 180%;
+    background-color: rgba(240, 227, 106, 0);
+    color: rgb(74, 74, 221,0);
+    padding: 5px;
+    transition: color 2s ease-in-out, background-color 2s ease-in-out, background 1s ease-in-out, pointer-events 1s ease;
+    font-family: old\ english\ text\ mt, serif;
+    top: 80%;
+    position: absolute;
+    left: 35%;
+    background-image: none;
+    background-position: -400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    overflow:hidden;
+    cursor: url("images/cursor.png") 50 50, auto;
+}
+@media (max-width: 768px) {
+    #show-label {
+        font-size: 80%;
+        padding: 10px;
+        left: 22%;
+        top: 70vh;
+    }
+}
+body:has(.cardcheckbox:checked) #show-label:hover{
+    background-image: url("images/buttonimg.jpg");
+    background-position: center;
+}
+#showline
+{
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body:has(#show-label:hover) #showline
+{
+    transform:translateX(425px);
+}
+body:has(.cardcheckbox:checked) #show-label
+{
+    background-color: #042538;
+    color: #f8c276;
+    pointer-events: all;
+}
+#bg{
+    filter: brightness(0.8);
+    width:100vw;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+@media (max-width: 768px) {
+    #bg {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+    }
+}
+.thecard
+{
+    display: block;
+    width: 7.5em;
+    height: 212px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+    margin-inline: -20px;
+}
+@media (max-width: 768px) {
+    .thecard {
+        width: 3.5em;
+        height: 100px;
+    }
+}
+.faces {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0.2px solid rgb(240,190,106);
+    backface-visibility: hidden !important;
+    -webkit-backface-visibility: hidden !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.thecard {
+    background-image: none !important;
+    background-color: transparent !important;
+    border: none !important; 
+    cursor: url("images/cursor.png") 50 50, auto;
+}
+input[type="checkbox"]:checked + .thecard {
+    transform: translateY(220px);
+}
+.cardcheckbox:checked + .thecard:hover
+ { transform: translateY(220px); }
+body:has(#show:checked) .cardcheckbox:checked + .thecard:hover
+ { transform: translateY(220px) rotateY(180deg) !important; }
+body:has(#show:checked) .cardcheckbox:checked + .thecard
+ {
+    transform: translateY(220px) rotateY(180deg) !important;
+}
+.thecard:hover {
+    filter: brightness(1.2);
+    transform: translateY(-20px);
+}
+#leftimage, #rightimage
+{
+    top: 0;
+    bottom:0;
+    position:absolute;
+    z-index: 99;
+    background-image: url("images/door-image.jpg");
+    background-size: 200%;
+    width: 50vw;
+    height: 100vh;
+    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform;
+}
+@media (max-width: 450px) {
+    #leftimage, #rightimage {
+        background-image: url("images/door-image-phone.png");
+    }
+}
+@media (min-width: 451px) and (max-width: 768px) {
+    #leftimage, #rightimage {
+        background-image: url("images/door-image-mobile.png");
+    }
+}
+#leftimage
+{
+    left: 0;
+    background-position: left;
+    transform: translateX(-102%);
+    position:fixed;
+}
+#rightimage
+{
+    right: 0;
+    background-position: right;
+    transform: translateX(102%) !important;
+    position:fixed;
+}
+body{
+    margin:0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+body.doors-closed #leftimage,
+body.doors-closed #rightimage {
+    transform: translateX(0) translateY(0) !important; /* Locks vertical shifts at zero */
+}
+.stackedDeck
+{   display: inline;
+    width: 7.5em;
+    height: 212px;
+    top: 1em;
+    bottom: 30px;
+    left: 5em;
+    position: relative;
+}
+@media (max-width: 768px) {
+    .stackedDeck {
+        width: 3.5em;
+        height: 100px;
+        left: 2em;
+        top: 8em;
+    }
+}
+.pos
+{
+    position: absolute;
+}
+#shuffleButton
+{
+    font-family:  old\ english\ text\ mt, serif;
+    background-color: #042538;
+    color: #f8c276;
+    border: 2px solid #042538;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    font-size: 120%;
+    margin-inline: 2em;
+    text-align: center;
+    width: 7.5em;
+    height: fit-content;
+    display: inline;
+    padding: 0.5em;
+    position: absolute;
+    margin-top: 20%;
+
+}
+@media (max-width: 768px) {
+    #shuffleButton {
+        width: 2.5em;
+        font-size: 100%;
+        margin-inline: 1em;
+        top: 40%;
+        padding-inline: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+    }
+}
+#shuffleButton:hover
+{
+    background-image: url("images/shuffleimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    color: transparent;
+    filter: brightness(1.2);
+}
+#shuffleButton:hover:active
+{
+background-color: #04425a;
+background-image: none;
+color: #f8c276;
+}
+#thirdpgbutton
+{
+    position: relative;
+    font-family:  old\ english\ text\ mt, serif;
+    background-color: #042538;
+    color: rgba(248, 194, 118, 1);
+    border: 2px solid #042538;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+    left: 80%;
+    top: 8em;
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    padding: 0.5em;
+    text-decoration: none;
+    opacity: 0;
+    transform: translateY(0);
+}
+@media (max-width: 768px) {
+    #thirdpgbutton {
+        left: 55%;
+        top: 20em;
+        font-size: 15px;
+        padding-inline: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+    }
+}
+body:has(#show:checked) #thirdpgbutton
+{
+    opacity: 1;
+    transform: translateY(30px);
+    background-color: #042538;
+    color: rgba(248, 194, 118, 1);
+
+}
+body:has(#show:checked) #thirdpgbutton:hover
+{
+    background-image: url("images/button-image2.jpg");
+    background-size: cover;
+    background-position: 50% 75%;
+    background-color: #fff;
+    color: rgba(248, 194, 118, 0);
+    filter: brightness(1.2);
+}
+#thirdpgbutton:hover:active
+{
+background-color: #04425a;
+background-image: none;
+    color: rgba(248, 194, 118, 1);
+}
