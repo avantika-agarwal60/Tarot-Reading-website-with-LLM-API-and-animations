@@ -4,7 +4,7 @@
 }
 #inner {
     transform: rotate(0deg);
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448747/sun_vsyncs.png");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/sun.png");
     background-size: 150%;
     background-position: center;
     border-radius: 50%;
@@ -24,7 +24,7 @@
     }
     #wrap
     {
-        background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448750/Untitled_design_mvrgkt.png");
+        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/Untitled_design.png");
         background-size: cover;
         background-position: center;
     }
@@ -76,7 +76,7 @@ a {
 #wrap::before {
     content: "";
     position:absolute;
-    background-image: url("https://res.cloudinary.com/oih4u0sn/image/upload/v1783448750/Untitled_design_mvrgkt.png");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/Untitled_design.png");
     background-size: cover;
     background-position: center;
     width: 100vw;
