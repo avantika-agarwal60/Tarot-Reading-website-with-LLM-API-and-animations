@@ -84,7 +84,7 @@ window.addEventListener('load', () => {
             wrapper.innerHTML = ` 
                 <input type="checkbox" id="${name}-checkbox" class="cardcheckbox">
                 <label for="${name}-checkbox" id="${name}-label" class="thecard">
-                    <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/tarotback.jpg')"></div>
+                    <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/tarotback.jpg')"></div>
                     <div class="faces ${name}-back" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
                 </label>`;
             deck.appendChild(wrapper);
@@ -135,7 +135,7 @@ window.addEventListener('load', () => {
                     wrapper.style.setProperty("--position", i + 1);
                     wrapper.innerHTML = `
                         <div class="thecard">
-                            <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/tarotback.jpg')"></div>
+                            <div class="faces ${name}-front" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/tarotback.jpg')"></div>
                             <div class="faces ${name}-back" style="background-image: url('https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/cards/${name}.jpg'); transform: rotateY(180deg);"></div>
                         </div>`;
                     slider.appendChild(wrapper);
