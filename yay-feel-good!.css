@@ -457,3 +457,28 @@ background-color: #04425a;
 background-image: none;
     color: rgba(248, 194, 118, 1);
 }
+
+@media (max-width: 768px) {
+    #deck {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+}
+ body {
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+#background {
+    height: 100vh; /* fallback for older browsers */
+    height: 100dvh;
+}
+@media (max-width: 768px) {
+    #deck {
+         margin-left: 0;
+        left: 4em;        /* adjust this value to taste — increase to push further right */
+        position: relative;
+        width: 100%;
+    }
+}
