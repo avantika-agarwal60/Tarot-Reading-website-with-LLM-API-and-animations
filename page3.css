@@ -63,9 +63,9 @@ body{
 }
 @media (max-width: 768px)
 {
-    body
+    #bg
     {
-        overflow-y: hidden;
+        height: 100%;
     }
 }
 #crystalball
