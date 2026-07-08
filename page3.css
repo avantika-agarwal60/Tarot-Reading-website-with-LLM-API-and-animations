@@ -171,7 +171,9 @@ body{
 }
 .title
 {
-    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .meaning
 {
@@ -193,6 +195,10 @@ body{
         width: 100%;         
         display: block;
         text-align: center !important;
+    }
+    .title
+    {
+        left: 53%;
     }
     .meaning-label {
         width: 97%;
