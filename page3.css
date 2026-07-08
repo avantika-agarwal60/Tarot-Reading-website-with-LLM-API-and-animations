@@ -102,22 +102,25 @@ body{
 }
 #meanings
 {
-    padding: 5%;
-    position: fixed;
+ position: fixed;
+    top: 4%;
+    left: 50%;                  /* 1. Move the left edge to the dead center */
+    transform: translateX(-50%); /* 2. Push it back by half its own width */
+    
     width: 36vw;
     height: 5.8vh;
-    left: calc(50vw - 23vw);
-    top: 4%;
+    padding: 5%;
+    
     background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/labeel.png");
     background-position: 50% 47%;
     background-repeat: no-repeat;
     background-size: 99%;
+    
     overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     flex-wrap: nowrap;
     font-family: old\ english\ text\ mt, serif;
-    transform: translateX(0);
-    overflow-y: hidden;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -199,8 +202,9 @@ body{
         transform: translateX(-50%);
     }
     .meaning {
-        width: 90%;
-        margin-left: 0;
+        width: 98%;
+        height: 14%;
+        top: 4%;
     }
 }
 .thecard
