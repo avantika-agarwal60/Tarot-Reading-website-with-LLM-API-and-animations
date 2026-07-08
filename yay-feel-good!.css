@@ -49,6 +49,8 @@ a {
     height: 100vh;
     position: fixed;
     z-index: -99;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 @media (max-width: 768px) {
     #background {
@@ -61,6 +63,8 @@ a {
         height: 100vh;
         position: fixed;
         z-index: -99;
+    overflow-x: hidden;
+    overflow-y: hidden;
     }
 }
 #enterline
