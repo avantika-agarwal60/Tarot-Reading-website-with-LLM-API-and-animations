@@ -109,13 +109,13 @@ body{
     
     width: 36vw;
     height: 5.8vh;
-    padding: 5%;
+    padding: 10px;
     
     background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/labeel.png");
     background-position: 50% 47%;
     background-repeat: no-repeat;
     background-size: 99%;
-    
+    box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
@@ -196,10 +196,9 @@ body{
         font-size: 85%;
     }
     #meanings {
-        width: 98%;
-        height: 14%;
-        left:50%;
-        transform: translateX(-50%);
+        width: 95%;
+        height: 13.5%;
+        padding: 5x;
     }
     .meaning {
         width: 98%;
