@@ -278,13 +278,17 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     top: 0;
     bottom: 0;
     position: fixed; /* Changed from absolute to fixed natively */
-    z-index: 99;
+    z-index: 99999;
     background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image.jpg");
     background-size: 200%;
     width: 50vw;
     height: 100vh;
     transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: transform;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 #leftimage {
