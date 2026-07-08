@@ -50,14 +50,6 @@
 body{
     height: 300vh;
 }
-
-@media (max-width: 768px)
-{
-    body
-    {
-        overflow-x: hidden;
-    }
-}
 #bg
 {
     width: 100vw;
@@ -68,6 +60,13 @@ body{
     background-repeat: no-repeat;
     pointer-events: auto;
     z-index: -10;
+}
+@media (max-width: 768px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
 }
 #crystalball
 {
@@ -90,6 +89,11 @@ body{
     animation-timeline: scroll(root);
 }
 
+/* ==========================================================================
+   THE COUNTER-ROTATION ENGINE
+   This actively untwists the ball's X and Y axes at the exact same rate 
+   the slider twists them, locking the ball face-forward to the viewer.
+   ========================================================================== */
 @keyframes stabilizeBall 
 {
     from
@@ -103,7 +107,6 @@ body{
         transform: translate(-50%, -50%) translateZ(0px) rotateX(-16deg) rotateY(-360deg);
     }
 }
-
 #meanings
 {
     padding: 75px;
@@ -112,7 +115,7 @@ body{
     height: 5.8vh;
     left: calc(50vw - 23vw);
     top: 4%;
-    background-image: url("images/labeel.png");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/labeel.png");
     background-position: 50% 47%;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -192,7 +195,8 @@ body{
     .title, .orientation, .meaning {
         padding-inline: 10px;
         font-size: 80%;
-    }   .title
+    }
+    .title
     {
         left: 53%;
     }
@@ -201,14 +205,14 @@ body{
         font-size: 85%;
     }
     #meanings {
-        width: 95%;
-        height: 13.5%;
-        padding: 5x;
-    }
-    .meaning {
         width: 98%;
         height: 14%;
-        top: 4%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .meaning {
+        width: 90%;
+        margin-left: 0;
     }
 }
 .thecard
