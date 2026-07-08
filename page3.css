@@ -58,15 +58,9 @@ body{
     background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/page3bg.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     pointer-events: auto;
     z-index: -10;
-}
-@media (max-width: 768px)
-{
-    #bg
-    {
-        height: 100%;
-    }
 }
 #crystalball
 {
