@@ -171,8 +171,7 @@ body{
 }
 .title
 {
-    top:0;
-    left:0;
+    text-align: center;
 }
 .meaning
 {
@@ -186,10 +185,14 @@ body{
         height: 100vh;;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .title, .orientation, .meaning {
         padding-inline: 10px;
         font-size: 80%;
+        width: 100%;         
+        display: block;
+        text-align: center !important;
     }
     .meaning-label {
         width: 97%;
