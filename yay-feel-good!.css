@@ -274,11 +274,10 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     filter: brightness(1.2);
     transform: translateY(-20px);
 }
-#leftimage, #rightimage
-{
+#leftimage, #rightimage {
     top: 0;
-    bottom:0;
-    position:absolute;
+    bottom: 0;
+    position: fixed; /* Changed from absolute to fixed natively */
     z-index: 99;
     background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image.jpg");
     background-size: 200%;
@@ -286,6 +285,23 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     height: 100vh;
     transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
     will-change: transform;
+}
+
+#leftimage {
+    background-position: left;
+    left: 0;
+    transform: translateX(-102%);
+}
+
+#rightimage {
+    background-position: right;
+    right: 0;
+    transform: translateX(102%); 
+}
+
+body.doors-closed #leftimage,
+body.doors-closed #rightimage {
+    transform: translateX(0) translateY(0); 
 }
 @media (max-width: 450px) {
     #leftimage, #rightimage {
@@ -297,28 +313,11 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
         background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image-mobile.jpg");
     }
 }
-#leftimage
-{
-    background-position: left;
-    left: 0;
-    transform: translateX(-102%);
-    position:fixed;
-}
-#rightimage
-{
-    background-position: right;
-    right: 0;
-    transform: translateX(102%) !important;
-    position:fixed;
-}
+
 body{
     margin:0;
     overflow-x: hidden;
     min-height: 100vh;
-}
-body.doors-closed #leftimage,
-body.doors-closed #rightimage {
-    transform: translateX(0) translateY(0) !important; /* Locks vertical shifts at zero */
 }
 .stackedDeck
 {   display: inline;
