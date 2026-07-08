@@ -50,6 +50,14 @@
 body{
     height: 300vh;
 }
+
+@media (max-width: 768px)
+{
+    body
+    {
+        overflow-x: hidden;
+    }
+}
 #bg
 {
     width: 100vw;
