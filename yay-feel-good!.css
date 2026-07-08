@@ -40,7 +40,7 @@ a {
 }
 #background
 {
-    background-image: url("images/secondbg.jpg");
+    background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/secondbg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ a {
 }
 @media (max-width: 768px) {
     #background {
-        background-image: url("images/secondbgphone.jpg");
+        background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/secondbgphone.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
