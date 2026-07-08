@@ -207,7 +207,7 @@ body:has(.cardcheckbox:checked) #show-label
     color: #f8c276;
     pointer-events: all;
 }
-#bg{
+#bg, picture{
     filter: brightness(0.8);
     width:100vw;
     background-size: cover;
@@ -216,7 +216,7 @@ body:has(.cardcheckbox:checked) #show-label
     top: 0;
 }
 @media (max-width: 768px) {
-    #bg {
+    #bg, picture {
         width: 100vw;
         height: 100vh;
         object-fit: cover;
