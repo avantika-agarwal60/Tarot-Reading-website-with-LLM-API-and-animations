@@ -289,7 +289,6 @@ body:has(#show:checked) .cardcheckbox:checked + .thecard
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-position-y: top;
 }
 
 #leftimage {
@@ -312,11 +311,15 @@ body.doors-closed #rightimage {
     #leftimage, #rightimage {
         background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image-phone.png");
         
+    background-position-y: top;
+        
     }
 }
 @media (min-width: 451px) and (max-width: 768px) {
     #leftimage, #rightimage {
         background-image: url("https://xzjdwqucrufaxayyzrwn.supabase.co/storage/v1/object/public/tarot/images/door-image-mobile.jpg");
+        
+    background-position-y: top;
     }
 }
 
